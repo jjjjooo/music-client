@@ -1,10 +1,5 @@
 const layout = ({ children }) => {
-  return (
-    <div>
-      이안에 레이아웃
-      {children}
-    </div>
-  );
+  return <div>{children}</div>;
 };
 
 export default layout;
